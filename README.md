@@ -1,9 +1,5 @@
 # Putnam-B6-2011
 
-## Auteur
-
-[valorisa](https://www.github.com/valorisa)
-
 ---
 
 ## Problème
@@ -159,4 +155,5 @@ MIT
 
 ## Auteur
 
-valorisa (2025)
+[valorisa](https://www.github.com/valorisa)
+(2025)
