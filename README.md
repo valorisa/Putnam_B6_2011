@@ -4,7 +4,7 @@
 
 Soit \( p \) un nombre premier impair. Pour tout entier \( n \) de 0 à \( p-1 \), on considère la somme :
 ```
-S(n) = ∑_{k=0}^{p-1} k! n^k
+S(n) = ∑_{k=0}^{p-1} k!*n^k
 ```
 
 **Objectif :** Montrer que pour au moins \( (p+1)/2 \) valeurs de \( n \), la somme \( S(n) \) n’est pas divisible par \( p \).
