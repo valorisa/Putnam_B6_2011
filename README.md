@@ -84,6 +84,3 @@ Ce polynôme de degré \( p-1 \) a toutes les racines non nulles au moins double
 
 ## Licence
 MIT
-
-Citations :
-[1] 1000020631.jpg https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/40251661/2bf8eb5f-a053-4c0a-9e95-f94ed2baab79/1000020631.jpg
