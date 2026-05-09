@@ -55,7 +55,7 @@ La borne (*p* − 1)/2 est grossière. En 2012, Sergey Stepanov a montré que le
 
 ## Source
 
-Ce repo est basé sur la solution présentée par [Axel Arno](https://www.youtube.com/@music_and_music) dans sa vidéo :
+Ce repo est basé sur la solution présentée par [Axel Arno](https://www.youtube.com/@axel_arno) dans sa vidéo :
 
 - [Le problème où PERSONNE n'a trouvé UN SEUL point (Putnam B6 2011)](https://youtu.be/DSp1rOl1jEo)
 
