@@ -53,7 +53,13 @@ La borne (*p* − 1)/2 est grossière. En 2012, Sergey Stepanov a montré que le
 
 ---
 
-## Ressources
+## Source
+
+Ce repo est basé sur la solution présentée par [Axel Arno](https://www.youtube.com/@music_and_music) dans sa vidéo :
+
+- [Le problème où PERSONNE n'a trouvé UN SEUL point (Putnam B6 2011)](https://youtu.be/DSp1rOl1jEo)
+
+## Ressources complémentaires
 
 - [Putnam Archive — 2011 Problems](https://kskedlaya.org/putnam-archive/2011.pdf)
 - [Théorème de Wilson — Wikipédia](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Wilson)
