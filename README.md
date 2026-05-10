@@ -6,7 +6,7 @@ Soit *p* un nombre premier impair. Pour tout entier *n* de 0 à *p* − 1, on co
 
 $$S(n) = \sum_{k=0}^{p-1} k! \cdot n^k$$
 
-**Montrer** que pour au moins (*p* + 1)/2 valeurs de *n*, la somme S(*n*) n'est **pas** divisible par *p*.
+**Montrer** que pour au moins (*p* + 1)/2 valeurs de *n* dans {0,1,2,...,p -1}, la somme S(*n*) n'est **pas** divisible par *p*.
 
 ---
 
