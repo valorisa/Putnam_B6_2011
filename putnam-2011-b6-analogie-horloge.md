@@ -127,3 +127,15 @@ Enfin, bien noter que :
 Le lien se fait via le reste modulo `p` : quand la somme totale tombe pile sur un multiple de `p` (reste = 0), le minuteur du four "sonne au zéro" — le gâteau brûle. Dans tous les autres cas (reste ≠ 0, donc `p` ne divise pas la somme), le minuteur s'arrête ailleurs qu'à zéro — le gâteau sort à temps, il ne brûle pas.
 
 Donc quand l'énoncé demande de montrer que pour au moins `(p+1)/2` valeurs de `n`, `p` ne divise pas la somme, ça se traduit dans l'analogie par : pour au moins la moitié des grammages de farine testés, le gâteau ne brûle pas.
+
+---
+
+**Conclusion**
+
+Contrairement à l'intuition qu'on pourrait avoir en cuisine — où l'échec d'une recette se rattache souvent à un défaut visible (trop peu ou trop d'un ingrédient) — ici, rien ne permet de deviner à l'avance quel grammage de farine fera brûler le gâteau. Dans l'exemple avec `p = 5`, c'est le grammage le plus élevé (4 g), et non le plus faible, qui fait "sonner le minuteur à zéro" : le lien entre la quantité de farine et l'échec de la recette n'a rien d'intuitif, il découle uniquement de calculs de restes modulo `p`.
+
+Et pourtant, malgré cette imprévisibilité apparente, l'énoncé garantit quelque chose de fort : **quel que soit le nombre premier impair `p` choisi**, au moins la moitié des grammages testés donneront toujours un gâteau réussi. Ce n'est pas une garantie liée au bon sens culinaire, mais une propriété purement arithmétique de la somme `k! · nᵏ` — une régularité cachée qui assure qu'on ne peut jamais "tout rater", même quand aucune règle simple ne dit à l'avance quelles recettes vont brûler.
+
+---
+
+Cette formulation évite l'idée fausse (« pas assez de farine = échec ») et remplace par la vraie observation : l'imprévisibilité du cas individuel contraste avec la garantie collective.
