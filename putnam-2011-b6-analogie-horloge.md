@@ -118,3 +118,12 @@ manipulées (les factorielles) croissent très vite, mais seule leur position
 sur un cercle à `p` cases importe réellement. L'objectif de l'exercice est
 alors de compter combien de « recettes de départ » évitent systématiquement
 la case zéro de cette horloge modulaire.
+
+Enfin, bien noter que : 
+
+- **Le gâteau ne brûle pas** ↔ `p` **ne divise pas** la somme (c'est le cas voulu par l'énoncé, celui qu'on doit montrer majoritaire)
+- **Le gâteau brûle** ↔ `p` **divise** la somme (le cas "raté", qu'on veut minoritaire)
+
+Le lien se fait via le reste modulo `p` : quand la somme totale tombe pile sur un multiple de `p` (reste = 0), le minuteur du four "sonne au zéro" — le gâteau brûle. Dans tous les autres cas (reste ≠ 0, donc `p` ne divise pas la somme), le minuteur s'arrête ailleurs qu'à zéro — le gâteau sort à temps, il ne brûle pas.
+
+Donc quand l'énoncé demande de montrer que pour au moins `(p+1)/2` valeurs de `n`, `p` ne divise pas la somme, ça se traduit dans l'analogie par : pour au moins la moitié des grammages de farine testés, le gâteau ne brûle pas.
